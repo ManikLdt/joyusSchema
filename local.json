@@ -1,0 +1,79 @@
+{
+  "env": "DEV",
+  "port": 3000,
+  "jwtSecretKey": "S3cUr3#as#JwTk3yS3cR3TZa95Tr47Acc3sst0k3Nl0G1n",
+  "dbURL": "mongodb://localhost:27017/joyous",
+  "fcmToken": "AAAAXxA8xsw:APA91bHiXKm_lZ93fnfbZupn0CZVJLzjxp5G3JNe97JDRTgRAhM26Frjo4MoBM-bLP1Q4UFbef5xDZ1MRnPI5DD3Oz8TQzbhyG1zmldOqOGR2wPv9Ioj1FKUsKSBJSCgGFSWBiOjNtBt",
+  "emailConfig": {
+    "service": "Gmail",
+    "secure": false,
+    "port": 587,
+    "auth": {
+      "user": "ldt.developer@gmail.com",
+      "pass": "pilvcypxaipbtqgl"
+    }
+  },
+  "fromEmail": "ldt.developer@gmail.com",
+  "TBO_API": {
+    "flightSearchURL": "http://xmloutapi.tboair.com/api/v1/Search/Search",
+    "flightAuthToken": "http://api.tektravels.com/SharedServices/SharedData.svc/rest/Authenticate",
+    "flightSSRAPI": "http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/SSR",
+    "flightFareQuoteAPI": "http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/FareQuote",
+    "flightBookingAPI": "http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/Book",
+    "flightTicketingAPI": "http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/Ticket",
+    "flightReleasePNR": "http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/ReleasePNRRequest",
+    "flightSendChangeRequest": "http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/SendChangeRequest",
+    "flightGetChangeRequest": "http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/GetChangeRequestStatus",
+    "flightGetCancellationCharges": "http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/GetCancellationCharges",
+
+    "hotelSearchURL": "http://api.tbotechnology.in/TBOHolidays_HotelAPI/Search",
+    "hotelRoomDetailURL": "http://api.tbotechnology.in/TBOHolidays_HotelAPI/HotelDetails",
+    "hotelPreBookURL": "http://api.tbotechnology.in/TBOHolidays_HotelAPI/PreBook",
+    "hotelBookingURL": "http://api.tbotechnology.in/TBOHolidays_HotelAPI/Book",
+    "hotelSendChangeURL": "http://api.tektravels.com/BookingEngineService_Hotel/hotelservice.svc/rest/SendChangeRequest",
+    "hotelGetSendChangeURL": " http://api.tektravels.com/BookingEngineService_Hotel/hotelservice.svc/rest/GetChangeRequestStatus/",
+    "hotelCodeListURL" : "http://api.tbotechnology.in/TBOHolidays_HotelAPI/TBOHotelCodeList",
+    "hotelDetailsURL" : "http://api.tbotechnology.in/TBOHolidays_HotelAPI/HotelDetails",
+    "hotelBookingRedirectionURL": "https://dev-web.zapstravel.com/hotel/booking-details/",
+    "hotelBookingDetailURL": "http://api.tbotechnology.in/TBOHolidays_HotelAPI/BookingDetail"
+   },
+  "TBO_CREDENTIALS": {
+    "CLIENT_ID": "ApiIntegrationNew",
+    "USER_NAME": "Joyus",
+    "PASSWORD": "Joyus300923",
+    "SERVER_IP": "13.126.39.135"
+  },
+
+  "TBO_HOTEL_CREDENTIALS":{
+    "username": "ZapsMarketing",
+    "password": "Zap@11625796"
+  },
+
+  "BILLDESK_API": {
+    "mercid": "UATZAPSTRA",
+    "clientid": "uatzapstra",
+    "whiteListIP": "184.168.120.160",
+    "jwsSecretKey": "sNpCsDkfg9ofRM5zhRGL4HXtcs8BV7AL",
+    "createOrderUrl": "https://pguat.billdesk.io/payments/ve1_2/orders/create",
+    "createRefundUrl": "https://pguat.billdesk.io/payments/ve1_2/refunds/create"
+  },
+  "bucketUrl": "zaps-bucket/Dev",
+  "baseURL": "https://dev-api.zapstravel.com/",
+  "bookingRedirectionURL": "https://dev-web.zapstravel.com/flight/bookingConfirmation/",
+  "hotelBookingRedirectionURL": "https://dev-web.zapstravel.com/hotel/booking-details/",
+  "TEXTLOCAL": {
+    "textLocalApiKey": "Nzg0MTU3NmYzMjQ1NzM3MjYzNjU1NDZmNmUzMzZmMzM=",
+    "textLocalSender": "ZAPSTL"
+  },
+  "AGENDA": {
+    "weekReminder": 10,
+    "dayReminder": 8,
+    "threeHourReminder": 3
+  },
+  "packageEmail": "junaid.ldttech@gmail.com",
+  "paymentRecieptEmail": "junaid.ldttech@gmail.com",
+  "zapsLogo": "https://zaps-bucket.s3.ap-south-1.amazonaws.com/Dev/ICON/1701696327398_header-logo.png",
+  "secretKey": "Z49sTr47eL2o2e3n",
+  "username" : "ZapsMarketing",
+  "password" : "Zap@11625796"
+}
